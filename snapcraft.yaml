@@ -19,7 +19,8 @@ apps:
 parts:
   fltk-hello:
     plugin: make
-    source: .
+    source: https://github.com/sangshuduo/fltk-hello-snap
+    source-type: git
     stage-packages:
       - libfltk1.3
     after: [desktop/gtk3]
