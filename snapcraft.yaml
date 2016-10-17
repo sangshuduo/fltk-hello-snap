@@ -24,3 +24,5 @@ parts:
     stage-packages:
       - libfltk1.3
     after: [desktop/gtk3]
+build-packages: [libfltk1.3-dev]
+
